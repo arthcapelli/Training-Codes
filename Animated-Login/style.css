@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #34495e;
+}
+
+.full-login {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  flex-direction: column;
+  text-align: center;
+  background: #191919;
+  border-radius: 10%;
+  transform: translate(0%, 10%);
+  transition: 0.3s;
+  border-style: outset;
+  border-color: rgb(77, 230, 250);
+  border-width: 5px;
+}
+.box {
+  height: 350px;
+}
+
+.full-login h1 {
+  color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.user-password input[type='text'],
+.user-password input[type='password'] {
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 24px;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.user-password input[type='text']:focus,
+.user-password input[type='password']:focus {
+  transition: 0.4s;
+  width: 250px;
+  border-color: #2ecc71;
+}
+
+.remember-me {
+  color: white;
+  cursor: pointer;
+}
+
+.remember-me:hover {
+  color: #3498db;
+}
+
+.all-buttons {
+  transition: 0.9ms;
+}
+
+.checkbox input[type='checkbox'] {
+  cursor: pointer;
+}
+
+.all-buttons input[type='submit'],
+.all-buttons button[type='reset'] {
+  transition: 0.5s;
+  margin-top: 10px;
+}
+.submit input[type='submit'] {
+  background: none;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 30px;
+  outline: none;
+  color: white;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit input[type='submit']:hover {
+  background: #2ecc71;
+  transition: 0.7s;
+}
+
+.reset button[type='reset'] {
+  background: none;
+  text-align: center;
+  border: 2px solid #8e9490;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  border-radius: 28px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.reset button[type='reset']:hover {
+  transition: 0.7s;
+  background: #8e9490;
+}
