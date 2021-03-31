@@ -31,7 +31,7 @@ body {
   text-align: center;
   border: 2px solid #3498db;
   padding: 14px 10px;
-  width: 200px;
+  width: 50%;
   outline: none;
   color: white;
   font-size: 15px;
@@ -43,7 +43,7 @@ body {
 .user-password input[type='text']:focus,
 .user-password input[type='password']:focus {
   transition: 0.4s;
-  width: 250px;
+  width: 60%;
   border-color: #2ecc71;
 }
 
